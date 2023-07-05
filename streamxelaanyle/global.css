@@ -173,3 +173,20 @@ li {
     color: rgb(14, 16, 160);
     text-shadow: 2px 2px 2px #ffffffb4;
 }
+
+#burger {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 50px;
+    color: rgb(14, 16, 160);
+    text-shadow: #00b7ff98 1px 1px;
+    display: none;
+}
+
+@media (max-width: 900px) {
+    #burger{
+        display: block;
+    }
+    
+}
