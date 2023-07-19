@@ -13,7 +13,7 @@ window.addEventListener('load', function () {
   setTimeout(function () {
     var iconList = document.querySelector('.icon');
     iconList.classList.add('icon-appear');
-  }, 5000); // 30 secondes en millisecondes
+  }, 5000); // 5 secondes en millisecondes
 });
 
 function openPopup() {
