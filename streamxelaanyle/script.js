@@ -1,3 +1,5 @@
+// Permet au menu des réseaux de devenir un [display:None]
+
 function toggleIconVisibility() {
   var iconlist = document.getElementById("iconlist");
   iconlist.style.display = "none";
@@ -5,6 +7,8 @@ function toggleIconVisibility() {
 
 var circle = document.querySelector(".circle");
 circle.addEventListener("click", toggleIconVisibility);
+
+// Réglage du temps d'apparition du menu des réseaux sur le flanc gauche de la page
 
 window.addEventListener('load', function () {
   var header = document.querySelector('.header');
@@ -16,6 +20,8 @@ window.addEventListener('load', function () {
   }, 5000); // 5 secondes en millisecondes
 });
 
+// Affichage de la validation du formulaire via un POP-UP
+
 function openPopup() {
   window.open('http://localhost/traitement.php', '_blank', 'width=900,height=180');
 
@@ -24,3 +30,15 @@ function openPopup() {
 
   return false;
 }
+
+// Bloc a modifié pour correspondre au fichier HTML
+
+let menu = document.querySelector('#menu-icon');
+let navlist = document.querySelector('.navlist');
+
+menu.onclick = () => {
+    menu.classList.toggle('bx-menu');
+    menu.classList.toggle('bx-x');
+    navlist.classList.toggle('open');
+  };
+  
