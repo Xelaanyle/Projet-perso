@@ -80,3 +80,9 @@ footer {
     color: #ffffff;
     text-align: center;
 }
+
+@media screen and (max-width: 900px)  {
+    .article1 {
+        width: 100%;
+    }
+}

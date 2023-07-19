@@ -50,7 +50,7 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px){
         
     .lecteur {
         flex-direction: column;
