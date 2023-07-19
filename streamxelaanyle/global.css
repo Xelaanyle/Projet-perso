@@ -188,5 +188,58 @@ li {
     #burger{
         display: block;
     }
-    
+
+    .navlist {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 200px;
+        height: 40vh;
+        background: #4d955990;
+        border: 1px solid white;
+        border-radius: 20px;
+        display: None;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 20px;
+        transition: all .55s ease;
+    }
+
+    .navlist a {
+        display: block;
+        margin: 7px 0;
+        margin-left: 0;
+    }
+
+    .navlist.open {
+        right: 0;
+        display: flex;
+    }
+
+    .icon {
+        top: auto;
+        bottom: 0;
+        left: -2px;
+        width: 300px;
+        height: 100px;
+    }
+
+    .icon ul {
+        display: flex;
+        flex-direction: row;
+     
+        
+    }
+
+    .circle {
+        font-size: 30px;
+        right: -36px;
+        top: 31px;
+    }
+
+    .lecteur {
+        width: 100%;
+        height: auto;
+    }
 }

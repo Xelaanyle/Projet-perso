@@ -33,7 +33,7 @@ function openPopup() {
 
 // Bloc a modifié pour correspondre au fichier HTML
 
-let menu = document.querySelector('#menu-icon');
+let menu = document.querySelector('#burger');
 let navlist = document.querySelector('.navlist');
 
 menu.onclick = () => {
