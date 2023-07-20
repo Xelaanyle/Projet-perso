@@ -59,3 +59,13 @@ footer {
     text-align: center;
 }
 
+@media screen and (max-width: 900px) {
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}

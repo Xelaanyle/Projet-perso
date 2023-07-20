@@ -133,3 +133,12 @@ footer {
     color: #ffffff;
     text-align: center;
 }
+
+@media screen and (max-width: 900px)  {
+    .formulaire {
+        width: 100%;
+    }
+    .article1, .contact {
+        width: 100%;
+    }
+}
