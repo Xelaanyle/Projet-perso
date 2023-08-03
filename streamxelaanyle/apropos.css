@@ -13,7 +13,6 @@
     border: 2px solid white;
     margin: 10px auto;
     text-align: center;
-    width: 35%;
     background-color: #00000094;
     padding: 10px;
     box-shadow:
@@ -54,4 +53,19 @@ footer {
     width: 100%;
     color: #ffffff;
     text-align: center;
+}
+
+@media screen and (max-width: 900px){
+    .main-contenair {
+        width: 80%;
+        flex-direction: column-reverse;
+    }
+    .photo img {
+        height: auto;
+        width: 80%;
+    }
+
+    .text1 p {
+        font-size: 25px;
+    }
 }
